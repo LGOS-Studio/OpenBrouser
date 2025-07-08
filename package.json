@@ -1,0 +1,5 @@
+{
+    "name": "LGOS Internet Explorer Version 3.14.1",
+    "main": "electron-main.js",
+    "version": "3.14.1"
+}

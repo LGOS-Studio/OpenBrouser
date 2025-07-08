@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./chrome.css">
+    <title>LGOS Internet Explorer (Alpha)</title>
+</head>
+<body>
+    <div class="top">
+        <div class="icon back" title="返回上一级"><span class="bi bi-chevron-left"></span></div>
+        <div class="icon reload" title="刷新"><span class="bi bi-arrow-clockwise"></span></div>
+        <div class="icon home" title="返回新标签页"><span class="bi bi-house-door"></span></div>
+        <div class="search">
+            <div class="ui-icon"><span class="bi bi-search"></span></div>
+            <input type="text" id="Input" placeholder="搜索或输入 Web 地址"/>
+        </div>
+        <!-- <div class="icon menu"><span class="bi bi-three-dots"></span></div> -->
+        <div class="icon chat"><span class="bi bi-chat-dots"></span></div>
+    </div>
+    <div class="links">
+        <ul>
+            <li>
+                <a href="javascript:;" data-href="about:blank">
+                    <img src="./Ribbon/theme-dark/windows.folderoptions.svg" alt="">
+                    <p>收藏夹设置</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" data-href="./about.html">
+                    <img src="./Ribbon/theme-dark/windows.SystemProperties.svg" alt="">
+                    <p>历史版本</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" data-href="https://github.com/LGOS-Studio/OpenBrouser/issues">
+                    <img src="./Ribbon/theme-dark/windows.help.svg" alt="">
+                    <p>在线反馈</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" data-href="https://github.com/OpenBrouser">
+                    <img src="./Ribbon/theme-dark/windows.open.svg" alt="">
+                    <p>查看项目</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <iframe id="frame" src="./mainpage.html" frameborder="0"></iframe>
+</body>
+<script src="./appui.js"></script>
+<script src="./chrome.js"></script>
+</html>
